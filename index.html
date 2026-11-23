@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Northbridge College - a place for curious minds and meaningful futures." />
+    <title>Northbridge College</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Northbridge College home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 44 44" role="img">
+            <circle cx="22" cy="22" r="20" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M22 9l11 5v7c0 7-4.5 11.5-11 14-6.5-2.5-11-7-11-14v-7l11-5z" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M16 24l4 4 8-9" fill="none" stroke="currentColor" stroke-width="1.5"/>
+          </svg>
+        </span>
+        <span class="brand-name">Northbridge<span>College</span></span>
+      </a>
+
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span>
+        <span class="sr-only">Toggle menu</span>
+      </button>
+
+      <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About us</a>
+        <a href="#contact">Contact us</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Admissions open · 2027</p>
+          <h1>Build a future<br />with <em>purpose.</em></h1>
+          <p class="hero-text">A focused education for independent thinkers, creative problem-solvers, and the people ready to shape what comes next.</p>
+          <a class="button" href="#contact">Explore your path <span aria-hidden="true">→</span></a>
+        </div>
+
+        <div class="hero-art" aria-label="Illustration of Northbridge College">
+          <div class="sun"></div>
+          <div class="arch">
+            <div class="arch-window"></div>
+          </div>
+          <div class="building">
+            <div class="building-roof"></div>
+            <div class="building-body">
+              <span></span><span></span><span></span>
+              <span></span><span></span><span></span>
+            </div>
+          </div>
+          <div class="ground"></div>
+          <p class="art-caption"><span>Est.</span> 1986</p>
+        </div>
+      </section>
+
+      <section id="about" class="about section">
+        <div class="section-heading">
+          <p class="eyebrow">Our story</p>
+          <h2>Learning that reaches<br />beyond the classroom.</h2>
+        </div>
+        <div class="about-grid">
+          <p class="lead">At Northbridge, education is personal. We combine rigorous academics with hands-on learning and a close-knit community.</p>
+          <div class="stats">
+            <div><strong>12:1</strong><span>Student–faculty ratio</span></div>
+            <div><strong>94%</strong><span>Graduate placement</span></div>
+            <div><strong>40+</strong><span>Areas of study</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section">
+        <div class="contact-intro">
+          <p class="eyebrow">Start a conversation</p>
+          <h2>Come find your place.</h2>
+          <p>Have a question about programs, campus life, or admissions? We would love to hear from you.</p>
+        </div>
+        <form class="contact-form">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" placeholder="you@example.com" required />
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="3" placeholder="How can we help?" required></textarea>
+          </label>
+          <button class="button" type="submit">Send message <span aria-hidden="true">→</span></button>
+          <p class="form-status" role="status"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <a class="brand footer-brand" href="#home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 44 44">
+            <circle cx="22" cy="22" r="20" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M22 9l11 5v7c0 7-4.5 11.5-11 14-6.5-2.5-11-7-11-14v-7l11-5z" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M16 24l4 4 8-9" fill="none" stroke="currentColor" stroke-width="1.5"/>
+          </svg>
+        </span>
+        <span class="brand-name">Northbridge<span>College</span></span>
+      </a>
+      <p>© 2027 Northbridge College</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
